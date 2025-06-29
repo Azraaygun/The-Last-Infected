@@ -3,7 +3,282 @@ guid: edab2f603f1eaeb49a0b019c4211cd12
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_AsphaltDamaged
+    second: {fileID: 2100000, guid: 66fd384a444b1514b9435b06a4a4abc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BarkDecidious_01
+    second: {fileID: 2100000, guid: fc57a127341209a43b804b3859590f27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BarkDecidious_02
+    second: {fileID: 2100000, guid: d5293dc6355ccf646b745a4addebab51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BranchesButterflies
+    second: {fileID: 2100000, guid: 7315b85d07069804cb1c9acaf55798f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BrickSmallOld
+    second: {fileID: 2100000, guid: 61c5f3b5968be0d4c86c5ba8f28a7ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CeramicEgg
+    second: {fileID: 2100000, guid: f3f37d64caf94d14899cb32e84b43503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteDirty_01a
+    second: {fileID: 2100000, guid: 54a2bd4fdf8fc6348959dc1055c4f291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteDirty_01b
+    second: {fileID: 2100000, guid: f5ca197f186fdba4dbe8416f32f6b07d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ConcreteWall
+    second: {fileID: 2100000, guid: 0ec4be5e606cc7b4896ae5d06ae438d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_DecalsMetals
+    second: {fileID: 2100000, guid: 20d81aa0e1252a04e8b138865050ff3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_FloorStreets
+    second: {fileID: 2100000, guid: 4cfca4940c8d7a642b89cdf03014e294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Flowers
+    second: {fileID: 2100000, guid: 4dd18838057503f4199eb02bcfe390e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass
+    second: {fileID: 2100000, guid: abf0d0d44d9dc894bb91837bc5e53107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Grains
+    second: {fileID: 2100000, guid: 634f46b3de347ca408c9e64fc8283a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_GrassDead
+    second: {fileID: 2100000, guid: 5523adf50b82fe447baf016132e9d911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Grass_01
+    second: {fileID: 2100000, guid: d77367bb13c0a0843a2d2f35c7a2a9a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Grass_02
+    second: {fileID: 2100000, guid: b97f457685a6a534188b1c3a48988051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ivy
+    second: {fileID: 2100000, guid: f93dacd457022754bb779213df36e5a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Leaves
+    second: {fileID: 2100000, guid: e1e3305a026723e44b0fae98f4a43935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_AsphaltDamaged_Grass_01
+    second: {fileID: 2100000, guid: 2cfe6e0778be9fc4686f508ad198d9af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_AsphaltDamaged_SoilMud_02
+    second: {fileID: 2100000, guid: 51bc6c946c7ea564c92958d73fe604f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_FloorStreets_GrassDead
+    second: {fileID: 2100000, guid: 4cbf6e8f0fe3ad047b43e4b33e47a944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_FloorStreets_Grass_01
+    second: {fileID: 2100000, guid: 160f4e658a333b647b41faba2ab6352f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_FloorStreets_Grass_02
+    second: {fileID: 2100000, guid: df1450c4c5893404c8843e0b02985fe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_FloorStreets_SoilMud_02
+    second: {fileID: 2100000, guid: 0c8c2a5a4aea83641b1c0d032024938d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_FloorStreets_SoilSand
+    second: {fileID: 2100000, guid: 5e32219f72b2aa447984fa6e79c32be8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_GrassDead_SoilMud_02
+    second: {fileID: 2100000, guid: 2f2ad4fb78b4e20448f9ad4dd801173c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_Grass_01_SoilMud_02
+    second: {fileID: 2100000, guid: da30fd3f9e54d804895ddc4c95f0f9d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_Grass_02_SoilMud_02
+    second: {fileID: 2100000, guid: 87c3ea3f54b778343835ad74c3a83c8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_SoilMud_01_SoilMud_02
+    second: {fileID: 2100000, guid: e28037baa7c1b1c439b5bce368ab4c6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Link_SoilSand_SoilMud_02
+    second: {fileID: 2100000, guid: cf26137627813cf4b9e9442c5a029f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MetalBareRusty
+    second: {fileID: 2100000, guid: dbde25d49eb4dc548a808ef8582546ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MetalBare_01a
+    second: {fileID: 2100000, guid: f86f4a35b6dfadf4c874461678deaf4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MetalBare_01b
+    second: {fileID: 2100000, guid: 4f7700f32a5a7da47b133a643af8da1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MetalPainted
+    second: {fileID: 2100000, guid: bf6882cd0817ebc42a2f8f4c0f246c5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_MetalWire
+    second: {fileID: 2100000, guid: 7429333d0c69231468be77c76d8075bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Orange
+    second: {fileID: 2100000, guid: a68cf942449bbdb439bf07742bad2f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Plants
+    second: {fileID: 2100000, guid: 5c051e771fff50643a31f64da70d75a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Red
+    second: {fileID: 2100000, guid: 6edd2ad2e719ef84b9da5fe471352750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RockSmooth
+    second: {fileID: 2100000, guid: 3cefe767e4c9342448356c1269d89a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RoofingCeramic
+    second: {fileID: 2100000, guid: ed97f48cff36a964cbea92fee819e276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_RoofingThatched
+    second: {fileID: 2100000, guid: a44b2a0a264f0ae4db90a509ae0aaaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SoilMud_01
+    second: {fileID: 2100000, guid: 6718445b07ca79e4fbefdf8f9bf9f483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SoilMud_02
+    second: {fileID: 2100000, guid: 36b5d44fc3adf8b47b2ba29a0399274a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SoilSand
+    second: {fileID: 2100000, guid: 105ab4351fd019842a5b086380ab2c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Straw
+    second: {fileID: 2100000, guid: 1ad56cc83d8ac994baa86e16cf7168cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Unique
+    second: {fileID: 2100000, guid: 8cc6563182c88a6469c0b082c7b24de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WaterPlain
+    second: {fileID: 2100000, guid: 334d8b32785dff14f9e9e630068baa5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodPlanksBare_01a
+    second: {fileID: 2100000, guid: 174ead1b9789cf248a929cae5efbba2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodPlanksBare_01b
+    second: {fileID: 2100000, guid: aafeddbdeb59b974fb027151f2b46790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodPlanksBare_02
+    second: {fileID: 2100000, guid: 5ac5e9eaac9a255458b5f93f178ec6a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodPlanksOld_01
+    second: {fileID: 2100000, guid: 7a0d26e2b11e22742a0827f467cba418, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodPlanksOld_02
+    second: {fileID: 2100000, guid: dd0719eb2fb20b245a28d7d037b063ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_WoodRough
+    second: {fileID: 2100000, guid: 8eb5b384a55f28d478992920f55f94ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1df90f2b8a9690b4395b308d63a834f4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
