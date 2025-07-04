@@ -66,7 +66,7 @@
 
 [Proje Backlog Board](https://miro.com/welcomeonboard/V1dNWGg0Z3IySmJWM0N0LzN2S2ZSSklZY2RDNlBid29YTm5kZ3BXaTZpVjJheDNjcXFMVzc3SjlTeGloM2djdGlEVTBrdlRyUGV2dlV6UU9BMXVhb1h4L3ZsNkgwaXRDNnNSdytzS0ZJdDRkVmlONUY5WDZCU3Q2ZXJNaC9zODlNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=639204211720)
 
-
+-----
 
 - **Sprint Notları:** Hedef kitlemizi daha iyi tanımamızı sağlayan User Personalar proje backloguna eklenmiştir. User Story'ler product backlog'ların içine yazılmıştır.
 
