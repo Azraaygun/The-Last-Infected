@@ -22,7 +22,8 @@
 
 ## Oyun Açıklaması
 
-**The Last Infected**, zombi temasını ters yüz eden, yenilikçi ve sürükleyici bir 3D aksiyon/macera oyunudur. Oyuncular bu kez hayatta kalmaya çalışan insanlar yerine, dünyadaki son zombi olarak hayatta kalma ve yayılma mücadelesine girişir. İnsanlık, zombi salgınını neredeyse tamamen sona erdirmiştir… ta ki ana karakterimiz beklenmedik bir mutasyon geçirip bilinç kazanana kadar. Bilinçli bir zombi olarak oyuncular, hayatta kalan insanları enfekte ederek zombiye dönüştürmeye çalışır. Her başarılı ısırık, “enfeksiyon puanı” olarak geri döner ve yeni, evrimleşmiş zombi yeteneklerinin kilidini açar. Bu yetenekler sayesinde oyuncular, daha yaratıcı ve güçlü enfeksiyon stratejileri geliştirebilir. Giderek güçlenen zombi formuyla, avcı konumundaki insanlara karşı üstünlük kurmak artık mümkün hale gelir. Karanlık atmosferi, tersine dönen hikayesi ve ilerlemeye dayalı mekanikleriyle The Last Infected, oyunculara alışılmışın dışında, unutulmaz bir zombi oyunu deneyimi sunuyor.
+**The Last Infected**, oyuncuyu dünyanın son zombisi olarak merkeze alan özgün bir 3D aksiyon/macera oyunudur. İnsanlık salgını yok etmek üzereyken, mutasyon geçirip bilinç kazanan bu zombi, hayatta kalanları enfekte ederek türünü yeniden yaymaya çalışır. Her enfekte ettiği insandan enfekte puanı kazanarak yeni yeteneklerin kilidini açan oyuncu, giderek güçlenen bir zombi olarak güvenliği artan bir şehirde ordusunu büyütmeye çalışır. Tersine çevrilmiş hikayesi ve karanlık atmosferiyle **The Last Infected**, zombi türüne ezber bozan bir bakış getiriyor.
+
 
 
 ## Oyun Hikayesi
