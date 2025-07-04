@@ -27,30 +27,29 @@
 
 
 ## Oyun Hikayesi
------
 
-
+Şehirde zombi kıyametinin sonuna gelinmiş, etkisiz hale getirilen zombiler imha edilmiştir. Bunlar olurken Doktor lakaplı karakter ana karakter Calam’ı askerlerin elinden kurtarır ve yeraltına inşa edilmiş gizli zombi üssüne götürür. Doktorun Calam’dan isteği ise hayatta kalarak bu enfeksiyonu yayması, enfekte ettiği zombileri üsse göndermesi ve günü geldiğinde inşa ettiği bu orduyla birlikte şehre yürümesi olacaktır.Bu süreçte Calam enfekte ettiği insanlardan elde ettiği özlerle mutasyon geçirerek yeni yetenekler elde eder. Elde ettiği yeteneklerden faydalanarak her gün insan avına çıkan Calam’ı gizli üste ziyaret eden Doktor, onun üzerinde büyük bir baskı kurarak kendisine itaat etmesi için zorlamaktadır. Günün birinde Calam ve Doktor, kurdukları büyük orduyla birlikte üsten ayrılarak şehre doğru harekete geçecektir.
 
 
 
 ## Oyun Özellikleri
 
-• 3D
+- 3D
 
-• Tek Oyunculu
+- Tek Oyunculu
 
-• 1. Şahıs
+- 1. Şahıs
 
-• Interaktif Görevler
+- Interaktif Görevler
 
-• Geliştirilebilir Yetenekler
+- Geliştirilebilir Yetenekler
 
 ## Hedef Kitle
-• 16 Yaş ve Üzeri Oyuncular
+- 16 Yaş ve Üzeri Oyuncular
 
-• Aksiyon ve Gerilim Severler
+- Aksiyon ve Gerilim Severler
 
-• Bağımsız Oyun Severler
+- Bağımsız Oyun Severler
  ## Pazarlama Planı
 
 **Steam Yayını:** Oyunumuzun özgün hikayesi ve tersine çevrilmiş zombi temasının dikkat çekeceğine inanıyoruz. Bu nedenle, oyunu ücretsiz reklam modelleri yerine doğrudan Steam platformunda ücretli olarak yayınlamayı hedefliyoruz.
@@ -65,7 +64,38 @@
 
 ## Product Backlog URL
 
+[Proje Backlog Board](https://miro.com/welcomeonboard/V1dNWGg0Z3IySmJWM0N0LzN2S2ZSSklZY2RDNlBid29YTm5kZ3BXaTZpVjJheDNjcXFMVzc3SjlTeGloM2djdGlEVTBrdlRyUGV2dlV6UU9BMXVhb1h4L3ZsNkgwaXRDNnNSdytzS0ZJdDRkVmlONUY5WDZCU3Q2ZXJNaC9zODlNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=639204211720)
 
+- **Sprint Notları:** Hedef kitlemizi daha iyi tanımamızı sağlayan User Personalar proje backloguna eklenmiştir. User Story'ler product backlog'ların içine yazılmıştır.
+
+- **Sprint içinde tamamlanması tahmin edilen puan:** 160 Puan
+
+- **Puanlama Mantığı:**  Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. İlk sprint için 160 puanlık backlog tamamlanması hedeflendi.
+
+- **Backlog düzeni ve Story seçimleri:**  Backlog’umuz, sonraki sprintlerin temelini oluşturacak şekilde seçilen görevlerden oluşmaktadır. Planlama, hedef puanı aşmayacak şekilde yapılmıştır. Pembe itemler tasarımı, mavi itemler kodlamayı, kahverengi itemler ses tasarımını, yeşil itemler görsel efektleri ve sarı itemler türü belirtilmemiş görevleri temsil etmektedir.
+
+- **Daily Scrum:** Daily Scrum toplantılarının WhatsApp üzerinden yapılmasına karar verilmiştir. Her gün projeye eklenen yeni geliştirmeler hakkında fikir alışverişi yapılmıştır. Günlük WhatsApp yazışmalarımız ve sesli görüşmelerimiz Imgur’da toplanmıştır: [Sprint1-Daily Scrum](https://imgur.com/a/oJoJam6)
+
+- **Sprint Board Update:** 
+
+![image](https://github.com/user-attachments/assets/396e24ba-47b2-46d1-97f8-d4d9b508d815)
+
+<details>
+  <summary>Ürün Durumu: Ekran Görüntüleri</summary>
+
+  ![Karakter Görseli](images/character.png)
+
+</details>
+
+- **Sprint Review:**  
+
+   • Tüm ekip, projenin hangi kısımlarının tamamlandığı ve sürecin nasıl ilerlediği konusunda görüşlerini paylaştı. Level tasarımı ekip tarafından beğenildi. Ayrıca eklenmesi gereken yeni özellikler hakkında da değerlendirmeler yapıldı.
+   
+  • Sprint Review Katılımcıları: Hasan Hüseyin Çelik, Alp Doruk Şengün, 	Gülsüm Çakıroğlu, Azra Aygün, 	Furkan Necat Alkan.
+
+- **Sprint Retrospective:**
+
+  •Birinci sprintte elde edilen ilerleme ekip tarafından beğenildi ve ikinci sprintte projenin büyük çoğunluğunun tamamlanması hedeflendi. Tasarım için toplanan assetlerin bir dosyada saklanmasına, bunların birleştirilmesine ve developerlarımız tarafından uygun mekaniklerin entegre edilmesine karar verildi. Ayrıca her üyenin, günün başında o gün yapacağı çalışmaları gruba bildirmesi kararlaştırıldı.  
 
 
 
