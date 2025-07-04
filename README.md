@@ -38,7 +38,7 @@
 
 - Tek Oyunculu
 
-- 1. Şahıs
+- First Person
 
 - Interaktif Görevler
 
