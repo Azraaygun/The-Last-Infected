@@ -84,11 +84,22 @@
 ![image](https://github.com/user-attachments/assets/396e24ba-47b2-46d1-97f8-d4d9b508d815)
 
 <details>
-  <summary>Ürün Durumu: Ekran Görüntüleri</summary>
+  <summary>
+   <h2>Ürün Durumu: Ekran Görüntüleri </h2>
+   </summary> 
+  <img src="https://github.com/user-attachments/assets/6a18cf2c-0fec-4ed9-af94-26bd13c69779" width="800" />
+  <img src="https://github.com/user-attachments/assets/cff0784c-b762-416d-ae9f-bf4cad59916d" width="800" />
 
-  ![Karakter Görseli](images/character.png)
+<img src="https://github.com/user-attachments/assets/af54f88a-0251-49bc-85a4-a46767dada58" width="800" /> 
+<img src="https://github.com/user-attachments/assets/2f6d96eb-ec0f-4646-9e99-b787d194cd0f" width="800" />
 
+ <img src="https://github.com/user-attachments/assets/6e726663-c03f-4752-b7e4-a7ca2e3a17e4" width="800" />
+<img src=" width="800" />
+
+<img src="https://github.com/user-attachments/assets/2f6d96eb-ec0f-4646-9e99-b787d194cd0f" width="800" />
 </details>
+
+
 
 - **Sprint Review:**  
 
