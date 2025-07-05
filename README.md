@@ -86,17 +86,18 @@
 <details>
   <summary>
    <h2>Ürün Durumu: Ekran Görüntüleri </h2>
-   </summary> 
+   </summary>  
+ <img src="https://github.com/user-attachments/assets/6e726663-c03f-4752-b7e4-a7ca2e3a17e4" width="800" />
   <img src="https://github.com/user-attachments/assets/6a18cf2c-0fec-4ed9-af94-26bd13c69779" width="800" />
   <img src="https://github.com/user-attachments/assets/cff0784c-b762-416d-ae9f-bf4cad59916d" width="800" />
+<img src="https://github.com/user-attachments/assets/8519d3e1-8b08-4015-8b27-7ea1d1f76109" width="800" />
 
+<img src="https://github.com/user-attachments/assets/830c14e4-1d9f-4645-b040-9d159f2cb9a2" width="800" />
 <img src="https://github.com/user-attachments/assets/af54f88a-0251-49bc-85a4-a46767dada58" width="800" /> 
 <img src="https://github.com/user-attachments/assets/2f6d96eb-ec0f-4646-9e99-b787d194cd0f" width="800" />
 
- <img src="https://github.com/user-attachments/assets/6e726663-c03f-4752-b7e4-a7ca2e3a17e4" width="800" />
-<img src=" width="800" />
 
-<img src="https://github.com/user-attachments/assets/2f6d96eb-ec0f-4646-9e99-b787d194cd0f" width="800" />
+
 </details>
 
 
