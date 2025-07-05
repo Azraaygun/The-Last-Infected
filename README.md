@@ -22,7 +22,7 @@
 
 ## Oyun Açıklaması
 
-**The Last Infected**, oyuncuyu dünyanın son zombisi olarak merkeze alan özgün bir 3D aksiyon/macera oyunudur. İnsanlık salgını yok etmek üzereyken, mutasyon geçirip bilinç kazanan bu zombi, hayatta kalanları enfekte ederek türünü yeniden yaymaya çalışır. Her enfekte ettiği insandan enfekte puanı kazanarak yeni yeteneklerin kilidini açan oyuncu, giderek güçlenen bir zombi olarak güvenliği artan bir şehirde ordusunu büyütmeye çalışır. Tersine çevrilmiş hikayesi ve karanlık atmosferiyle **The Last Infected**, zombi türüne ezber bozan bir bakış getiriyor.
+**The Last Infected**, oyuncuyu dünyanın son zombisi olarak merkeze alan özgün bir 3D aksiyon/macera oyunudur. İnsanlık salgını yok etmek üzereyken, gizemli bir karakter tarafından kurtarılan bu zombi, hayatta kalanları enfekte ederek türünü yeniden yaymaya çalışır. Her enfekte ettiği insandan enfekte puanı kazanarak yeni yeteneklerin kilidini açan oyuncu, giderek güçlenen bir zombi olarak güvenliği artan bir şehirde ordusunu büyütmeye çalışır. Tersine çevrilmiş hikayesi ve karanlık atmosferiyle **The Last Infected**, zombi türüne ezber bozan bir bakış getiriyor.
 
 
 
@@ -58,7 +58,7 @@
 
 **Fiyatlandırma:** Oyunun ilk sürümüne uygun olarak 5-10$ arası erişilebilir bir fiyat belirlenecek. İlerleyen dönemde içerik artışına göre fiyat güncellenebilir.
 
-**Marka Genişletmesi (Merchandise):** Oyunun evrenine ilgi duyan oyuncular için özel tasarımlı tişörtler, zombi kafası, kupalar ve posterler gibi ürünler hazırlanacaktır. Bu sayede hem ek gelir sağlanacak hem de marka bilinirliği artırılacaktır.
+**Marka Genişletmesi (Merchandise):** Oyunun evrenine ilgi duyan oyuncular için özel tasarımlı tişörtler, kupalar ve posterler gibi ürünler hazırlanacaktır. Bu sayede hem ek gelir sağlanacak hem de marka bilinirliği artırılacaktır.
 
 **Dijital Tanıtım:** Sosyal medya platformlarında (Instagram, TikTok, YouTube Shorts) kısa sinematik sahneler, oynanış kesitleri ve geliştirici günlükleri paylaşarak geniş kitlelere ulaşmayı hedefliyoruz.
 
