@@ -35,7 +35,9 @@
    <h2>Oyun Hikayesinin Tamamı </h2>
    </summary>  
   Part 1 “Return of the apocalypse”
+  
 Sahne 1
+
 Yaşlı bir adam ve bir çocuk ahşap evlerinin önünde, bir ateşin başında konuşmaktadır.
   
 Çocuk: Söyleseler inanmazdım dede.
