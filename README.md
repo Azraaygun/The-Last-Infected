@@ -88,8 +88,7 @@
    <h2>Ürün Durumu: Ekran Görüntüleri </h2>
    </summary>  
  <img src="https://github.com/user-attachments/assets/6e726663-c03f-4752-b7e4-a7ca2e3a17e4" width="800" />
-![Oyun GIF'i](https://github.com/user-attachments/assets/53ff70a2-71e5-4612-9e88-3d2142357fb0)
-
+ <img src="https://github.com/user-attachments/assets/53ff70a2-71e5-4612-9e88-3d2142357fb0" width="800" />
   <img src="https://github.com/user-attachments/assets/cff0784c-b762-416d-ae9f-bf4cad59916d" width="800" />
 <img src="https://github.com/user-attachments/assets/8519d3e1-8b08-4015-8b27-7ea1d1f76109" width="800" />
 
