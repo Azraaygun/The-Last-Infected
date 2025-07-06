@@ -37,99 +37,193 @@
   Part 1 “Return of the apocalypse”
 Sahne 1
 Yaşlı bir adam ve bir çocuk ahşap evlerinin önünde, bir ateşin başında konuşmaktadır.
+  
 Çocuk: Söyleseler inanmazdım dede.
+
 Yaşlı: Ha. Ne dedin Leo?
+
 Çocuk: Söyleseler dedim, inanmazdım dede.
+
 Yaşlı: Neye inanmazdın?
+
 Çocuk: Bu kabustan sağ çıkacağımıza.
+
 Yaşlı: Nasıl yani?
+
 Çocuk: Yani ya hepsi yok edilmeden önce bir zombiye yem olsaydık? Askerler olmasaydı çoktan ölmüştük.
+
 Yaşlı: Ne zombisi, ne askeri?
+
 Çocuk: Ohoo dedem, sen yine kendinde değilsin anlaşılan. İstersen gel içeri geçelim. Uyu, dinlen biraz he?
+
 Yaşlı: Yok istemem. Yıldızlarla konuşuyorum ben. Belki Liora’mdan bir haber getirirler. Çok özledim onu.
+
 Çocuk: Ahh dedem. Peki, öyle olsun. Ama çok durma, biraz sonra gel. Tamam mı?
+
 Yaşlı: Tamam, sen beni merak etme.
+
 Çocuk: İyi geceler dede.
+
 Yaşlı: İyi geceler.
+
 Çocuk eve geçer.
+
 Sahne 2
+
 Karanlık, kasvetli bir ortamdayız.
+
 Gözlerimizi yavaş yavaş aralarken belli belirsiz bir silüet görürüz.
+
 Belirsiz kişi- Ölmediğini biliyordum.
+
 …
 Belirsiz kişi- Unutma, sen ölürsen her şey biter. İyi şanslar.
+
 Belirsiz kişi ortamdan çıkar.
+
 Gözlerimizi tamamen açarız.
+
 Oyuncu kontrolleri alır.
+
 Görev: İlk enfekte için bir kurban bul.
+
 Ormanın altına yapılmış base’den ormana çıkarız ve ilerleriz.
+
 Karşımıza bir ahşap ev çıkar.
+
 Yaşlı adamı enfekte ederiz ve yaşlı adam base’e doğru yürümeye başlar.
+
 Bir süre sonra çocuk evden çıkar.
+
 Dedesi ortadan kaybolmuştur.
+
 Çocuk: Dede, dede neredesin? Dedeee!
+
 Oyunun logosu ekrana gelir.
+
 Sahne 3
+
 Görev 2: İnsanlara yakalanmadan 10 enfekte sayısına ulaş.
+
 Şehirde sokakları dolaşarak askerlerin devriye gezmediği noktaları ararız.
+
 Bu noktalarda insanlar varsa onları enfekte etmeye çalışırız.
+
 Amacımız insanlara fark ettirmeden gizlice yaklaşmak, fark ettiklerinde askerlerin devriye gezdiği bir sokağa doğru koşuyorlar.
+
 Biz yakalamadan askerlerin yanına ulaşırlarsa şehir güvenlik düzeyi artıyor.
+
 Arttıkça da askerlerin sayısı bir günlüğüne artıyor. Daha çok sokakta devriye geziyorlar.
+
 Şehir güvenliğinin eski haline gelmesini bekleyebiliriz, base’de günü geçir butonu olur. Bunu istemezsek de risk alıp daha çok asker devriye gezerken dışarıda insan avına çıkarız.
+
 Sahne 4
+
 30 enfekteden sonra göreceğimiz sahne
+
 Base’e gireriz. Zombilerin toplandığı alanı camdan izlerken sırtımız dönüktür.
+
 Arkamızdan biri bize bir şırınga enjekte eder ve yere yığılırız.
+
 Gözlerimizi açtığımızda baş ucumuzda belirsiz kişi vardır.
+
 Belirsiz Kişi: Seninle bazı şeyleri konuşmam gerek. Bunu da sen zombiyken yapamazdım. Ya da ben zombi değilken. Doğrusunu istersen bunu yapmak için kendimi bir zombiye çevirmeyi göze alamazdım.
+
 Belirsiz Kişi: Konuşabilirsin. Seni insan formuna döndürecek bir sıvıyı sana enjekte ettim. Fakat bu çok da uzun sürmeyecek. Tahminen bir 15-20 dakika içinde eski formuna döneceksin.
+
 Karakter: Kimsin sen? Bana ne yaptın?
+
 Belirsiz Kişi: Benim ismimin ne önemi var Calam? Burada önemli olan sensin.
+
 Calam: Çöz beni, beni neden bağladın?
+
 Belirsiz Kişi: Sen kendinin ne kadar tehlikeli bir silah olduğunun farkında değilsin sanırım. İlaçlı olsan da risk almak istemedim.
+
 Calam: Benden… Benden ne istiyorsun? Ahh! Başım…
+
 Belirsiz Kişi: Senden seni istiyorum Calam. Onlarca, yüzlerce istiyorum hem de. Amacıma ulaşacak kadar çok olmanı istiyorum. Anlıyor musun?
+
 Calam: Ben mi? Ben kimim ki?
+
 …
 Calam: Ben… Ben bir canavardım! Bir zombiydim! Çığlıklar, iniltiler! Acı çekerek can veren insanlar! Ahhhh! Başım çatlıyor!
+
 Belirsiz Kişi: Bir acı Calam… Bir acı bazen bin acıdan üstündür. Bin çığlık bir araya gelse bazen bir tek çığlığı bastıramaz, silemez. (bağırarak) O çığlığın anısını yok edemez!
+
 Calam: Ne diyorsun? Anlamıyorum.
+
 Belirsiz Kişi: Anlaman gerekmiyor! Diğer zombiler gibi yok olmanın eşiğindeydin sen. Seni ben kurtardım Calam! Bana itaat ettiğin kadar yaşayacaksın. Bana itaat ettiğin sürece var olacaksın.
+
 Sahne 5
+
 Flashback…
+
 Askerler yerde yatan zombileri teker teker kaldırıp büyük bir aracın arkasına atmaktadır.
+
 Askerlerden biri: Komutanım… Toplama işlemi bitmek üzere. Ne emredersiniz?
+
 Komutan: Hepsini boş bir araziye götürüp yakın. Küllerini de yok edin.
+
 Bu konuşma olurken sokağın köşesinde belirsiz kişi askerlere fark ettirmeden bir zombiyi sokak arasına doğru sürükler.
+
 Belirsiz Kişi: Umarım canımı riske attığıma değer. Artık enfekte olduğun için askerler seni yaşatmaz. Sakın öleyim deme! Sakın!
+
 Sahne 6
+
 Belirsiz Kişi: Bu kadar konuşmak yeter. Senden bir tek isteğim var. Senden bir ordu olana kadar sakın durma.
+
 Calam: Madem benden istediğin bu enfeksiyonu yaymam, neden diğer zombileri salmıyorsun?
+
 Belirsiz Kişi: Yeterli sayıya ulaşmadan sadece telef olursunuz. Başkanın eli sandığından daha güçlü. Ordusu da öyle.
+
 Kafamızda çığlık sesleri yankılanır ve başımızı tutarız.
+
 Calam: Ahhh! Kadınlar, çocuklar… Onlara da acı çektiriyorsun.
+
 Belirsiz Kişi: Bu kadar konuşmak yeter! Şu an insan formunda olduğun için bunları söylüyorsun. Nasıl olsa birazdan eski formuna döneceksin. Bu duygulardan arınacaksın.
+
 Calam: Sen? Sen insan değil misin?
+
 Belirsiz Kişi: Yeter dedim! Sana dediğimi unutma! İyi uykular!
+
 Başımıza vurur, ekran kararır.
+
 Sahne 7
+
 Gözlerimizi açarız.
+
 Görev: 50 enfekte sayısına ulaş.
+
 Oynanış
+
 Görev: 100 enfekte sayısına ulaş.
+
 Oynanış
+
 Sahne 8 (Final)
+
 100+ enfekte sayısına ulaştıktan sonra bu sahne gelecek.
+
 Base’e geldiğimizde yerde bir zarf buluruz.
+
 Zarftan biri katlı iki kağıt çıkar.
+
 Katlı olmayan kağıtta şunlar yazmaktadır:
-Calam, zamanın gelip çattığını düşünüyorsan base’de cam bölmenin yanındaki düğme ile base kapısını aç ve ordumuzu base dışına çıkar. Onları sen enfekte ettin, senin komutlarını dinleyecekler. Zarf içinde gönderdiğim haritaya göre orduyu dağıtmanı istiyorum. Tek bir koldan saldırırsan işe yaramayacaktır. Onları gafil avlamalı, ordunu savaş esnasında da büyüterek bu savaşı kazanmalısın. Bunu yapmak zorundasın Calam. Başka bir seçeneğin yok!
+
+Calam, zamanın gelip çattığını düşünüyorsan base’de cam bölmenin yanındaki düğme ile base kapısını aç ve ordumuzu base dışına çıkar. Onları sen enfekte ettin, senin komutlarını dinleyecekler.
+
+Zarf içinde gönderdiğim haritaya göre orduyu dağıtmanı istiyorum. Tek bir koldan saldırırsan işe yaramayacaktır. Onları gafil avlamalı, ordunu savaş esnasında da büyüterek bu savaşı kazanmalısın. Bunu yapmak zorundasın Calam. Başka bir seçeneğin yok!
+
 Görev: Base kapısını aç ve ordunu dışarı çıkar.
+
 Oyuncu bu görevi yapar.
+
 Calam ve arkasında bir zombi ordusu ormandan şehre doğru yürümeye başlarken savaş müziği çalar.
+
 Ormanla şehir arasındaki sınırda Calam ve ordusu durur.
+
 Kamera şehre bakarken credits akar.
+
 Part 1 Sonu
 
 
