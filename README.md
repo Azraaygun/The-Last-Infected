@@ -73,7 +73,7 @@
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 160 Puan
 
-- **Puanlama Mantığı:**  Proje boyunca tamamlanması gereken toplam 300 puanlık backlog bulunmaktadır. İlk sprint için 160 puanlık backlog tamamlanması hedeflendi.
+- **Puanlama Mantığı:**  Proje boyunca tamamlanması gereken toplam 465 puanlık backlog bulunmaktadır. İlk sprint için 160 puanlık backlog tamamlanması hedeflendi.
 
 - **Backlog düzeni ve Story seçimleri:**  Backlog’umuz, sonraki sprintlerin temelini oluşturacak şekilde seçilen görevlerden oluşmaktadır. Planlama, hedef puanı aşmayacak şekilde yapılmıştır. Pembe itemler tasarımı, mavi itemler kodlamayı, kahverengi itemler ses tasarımını, yeşil itemler görsel efektleri ve sarı itemler türü belirtilmemiş görevleri temsil etmektedir.
 
