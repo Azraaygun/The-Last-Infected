@@ -8,8 +8,6 @@ public class ChController : MonoBehaviour
     [SerializeField] private float crouchHeight = 1.2f;
     [SerializeField] private float cameraLerpSpeed = 5f;
 
-    bool isRunning;
-
     [SerializeField] private Animator animator;
 
     [Header("Hareket")]
@@ -34,6 +32,9 @@ public class ChController : MonoBehaviour
     private float lastShiftTime = 0f;
     private float doubleTapThreshold = 0.3f;
 
+    private bool isRunning;
+    private bool hasJumped;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -45,7 +46,7 @@ public class ChController : MonoBehaviour
     {
         HandleMouseLook();
         HandleMovement();
-        RunningAnim();
+        UpdateAnimations();
     }
 
     void HandleMouseLook()
@@ -63,10 +64,6 @@ public class ChController : MonoBehaviour
     void HandleMovement()
     {
         isGrounded = controller.isGrounded;
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
 
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
@@ -76,20 +73,28 @@ public class ChController : MonoBehaviour
         isRunning = Input.GetKey(KeyCode.LeftShift) && isGrounded;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
 
-        animator.SetFloat("MoveSpeed", inputMagnitude);
-        animator.SetBool("isRunning", isRunning);
-
         Vector3 forward = Vector3.ProjectOnPlane(playerBody.forward, Vector3.up).normalized;
         Vector3 right = Vector3.ProjectOnPlane(playerBody.right, Vector3.up).normalized;
         Vector3 move = right * moveX + forward * moveZ;
 
         controller.Move(move * currentSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // Jump
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !hasJumped)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            hasJumped = true;
+            animator.SetTrigger("Jump"); // ? TRIGGER only once
         }
 
+        // Yerle temas sonras? jump flag'i s?f?rlan?r
+        if (isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+            hasJumped = false;
+        }
+
+        // Dash
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             float timeSinceLastShift = Time.time - lastShiftTime;
@@ -111,8 +116,16 @@ public class ChController : MonoBehaviour
         controller.Move(dashDirection * dashForce);
     }
 
-    void RunningAnim()
+    void UpdateAnimations()
     {
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+        float inputMagnitude = new Vector2(moveX, moveZ).magnitude;
+
+        animator.SetFloat("MoveSpeed", inputMagnitude);
+        animator.SetBool("isRunning", isRunning);
+        animator.SetBool("isGrounded", isGrounded); // ? Bunu ekledik
+
         float targetHeight = isRunning ? crouchHeight : standHeight;
 
         Vector3 camPos = cameraHolder.localPosition;

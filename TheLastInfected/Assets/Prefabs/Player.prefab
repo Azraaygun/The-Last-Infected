@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 419659024991889984}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.857, z: 0.022000074}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65,12 +65,12 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  near clip plane: 0.01
+  far clip plane: 500
+  field of view: 75
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -207,7 +207,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38fa31bf129be4448ee0511e1879262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  cameraHolder: {fileID: 8092215265174946744}
+  standHeight: 1.47
+  crouchHeight: 1.2
+  cameraLerpSpeed: 5
+  animator: {fileID: 8549966433010053856}
   walkSpeed: 3
   runSpeed: 6
   jumpHeight: 2
@@ -215,7 +219,7 @@ MonoBehaviour:
   dashForce: 10
   dashCooldown: 1
   mouseSensitivity: 100
-  playerBody: {fileID: 585820766148622371}
+  playerBody: {fileID: 8549966433017470326}
   playerCamera: {fileID: 2015346720519459946}
 --- !u!143 &2628698814696876134
 CharacterController:
@@ -268,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 6157117074736742063}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 1.65, z: 0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -336,7 +340,7 @@ PrefabInstance:
     - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.525
+      value: -0.669
       objectReference: {fileID: 0}
     - target: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
         type: 3}
@@ -759,6 +763,12 @@ PrefabInstance:
       addedObject: {fileID: 8092215265174946744}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d99d47e6e48a714c895368aed8a8fa6, type: 3}
+--- !u!95 &8549966433010053856 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7519321484090420282, guid: 4d99d47e6e48a714c895368aed8a8fa6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2233339181667442394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8549966433017470326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7519321484099765164, guid: 4d99d47e6e48a714c895368aed8a8fa6,
