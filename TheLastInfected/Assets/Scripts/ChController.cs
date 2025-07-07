@@ -3,6 +3,13 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class ChController : MonoBehaviour
 {
+    [SerializeField] private Transform cameraHolder;
+    [SerializeField] private float standHeight = 1.65f;
+    [SerializeField] private float crouchHeight = 1.2f;
+    [SerializeField] private float cameraLerpSpeed = 5f;
+
+    bool isRunning;
+
     [SerializeField] private Animator animator;
 
     [Header("Hareket")]
@@ -32,14 +39,13 @@ public class ChController : MonoBehaviour
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        animator = playerCamera.GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
         HandleMouseLook();
         HandleMovement();
+        RunningAnim();
     }
 
     void HandleMouseLook()
@@ -67,13 +73,16 @@ public class ChController : MonoBehaviour
 
         float inputMagnitude = new Vector2(moveX, moveZ).magnitude;
 
-        bool isRunning = Input.GetKey(KeyCode.LeftShift) && isGrounded;
+        isRunning = Input.GetKey(KeyCode.LeftShift) && isGrounded;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
 
         animator.SetFloat("MoveSpeed", inputMagnitude);
         animator.SetBool("isRunning", isRunning);
 
-        Vector3 move = transform.right * moveX + transform.forward * moveZ;
+        Vector3 forward = Vector3.ProjectOnPlane(playerBody.forward, Vector3.up).normalized;
+        Vector3 right = Vector3.ProjectOnPlane(playerBody.right, Vector3.up).normalized;
+        Vector3 move = right * moveX + forward * moveZ;
+
         controller.Move(move * currentSpeed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -98,7 +107,16 @@ public class ChController : MonoBehaviour
 
     void Dash()
     {
-        Vector3 dashDirection = playerBody.forward;
-        controller.Move(dashDirection.normalized * dashForce);
+        Vector3 dashDirection = Vector3.ProjectOnPlane(playerBody.forward, Vector3.up).normalized;
+        controller.Move(dashDirection * dashForce);
+    }
+
+    void RunningAnim()
+    {
+        float targetHeight = isRunning ? crouchHeight : standHeight;
+
+        Vector3 camPos = cameraHolder.localPosition;
+        camPos.y = Mathf.Lerp(camPos.y, targetHeight, Time.deltaTime * cameraLerpSpeed);
+        cameraHolder.localPosition = camPos;
     }
 }
