@@ -84,10 +84,9 @@ public class ChController : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             hasJumped = true;
-            animator.SetTrigger("Jump"); // ? TRIGGER only once
+            animator.SetTrigger("Jump"); 
         }
 
-        // Yerle temas sonras? jump flag'i s?f?rlan?r
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
@@ -124,7 +123,7 @@ public class ChController : MonoBehaviour
 
         animator.SetFloat("MoveSpeed", inputMagnitude);
         animator.SetBool("isRunning", isRunning);
-        animator.SetBool("isGrounded", isGrounded); // ? Bunu ekledik
+        animator.SetBool("isGrounded", isGrounded);
 
         float targetHeight = isRunning ? crouchHeight : standHeight;
 
