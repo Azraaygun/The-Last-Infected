@@ -270,17 +270,22 @@ Part 1 Sonu
 -----
 # Sprint 1
 
-- **Sprint Notları:** Hedef kitlemizi daha iyi tanımamızı sağlayan User Personalar proje backloguna eklenmiştir. User Story'ler product backlog'ların içine yazılmıştır.
+## **Sprint Notları:** 
+Hedef kitlemizi daha iyi tanımamızı sağlayan User Personalar proje backloguna eklenmiştir. User Story'ler product backlog'ların içine yazılmıştır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan:** 160 Puan
+## **Sprint içinde tamamlanması tahmin edilen puan:** 
+160 Puan
 
-- **Puanlama Mantığı:**  Proje boyunca tamamlanması gereken toplam 465 puanlık backlog bulunmaktadır. İlk sprint için 160 puanlık backlog tamamlanması hedeflendi.
+## **Puanlama Mantığı:**  
+Proje boyunca tamamlanması gereken toplam 465 puanlık backlog bulunmaktadır. İlk sprint için 160 puanlık backlog tamamlanması hedeflendi.
 
-- **Backlog düzeni ve Story seçimleri:**  Backlog’umuz, sonraki sprintlerin temelini oluşturacak şekilde seçilen görevlerden oluşmaktadır. Planlama, hedef puanı aşmayacak şekilde yapılmıştır. Pembe itemler tasarımı, mavi itemler kodlamayı, kahverengi itemler ses tasarımını, yeşil itemler görsel efektleri ve sarı itemler türü belirtilmemiş görevleri temsil etmektedir.
+## **Backlog düzeni ve Story seçimleri:**  
+Backlog’umuz, sonraki sprintlerin temelini oluşturacak şekilde seçilen görevlerden oluşmaktadır. Planlama, hedef puanı aşmayacak şekilde yapılmıştır. Pembe itemler tasarımı, mavi itemler kodlamayı, kahverengi itemler ses tasarımını, yeşil itemler görsel efektleri ve sarı itemler türü belirtilmemiş görevleri temsil etmektedir.
 
-- **Daily Scrum:** Daily Scrum toplantılarının WhatsApp üzerinden yapılmasına karar verilmiştir. Her gün projeye eklenen yeni geliştirmeler hakkında fikir alışverişi yapılmıştır. Günlük WhatsApp yazışmalarımız ve sesli görüşmelerimiz Imgur’da toplanmıştır: [Sprint1-Daily Scrum](https://imgur.com/a/oJoJam6)
+## **Daily Scrum:** 
+Daily Scrum toplantılarının WhatsApp üzerinden yapılmasına karar verilmiştir. Her gün projeye eklenen yeni geliştirmeler hakkında fikir alışverişi yapılmıştır. Günlük WhatsApp yazışmalarımız ve sesli görüşmelerimiz Imgur’da toplanmıştır: [Sprint1-Daily Scrum](https://imgur.com/a/oJoJam6)
 
-- **Sprint Board Update:** 
+## **Sprint Board Update:** 
 
 ![image](https://github.com/user-attachments/assets/396e24ba-47b2-46d1-97f8-d4d9b508d815)
 
@@ -304,13 +309,13 @@ Part 1 Sonu
 
 
 
-- **Sprint Review:**  
+## **Sprint Review:**  
 
    • Tüm ekip, projenin hangi kısımlarının tamamlandığı ve sürecin nasıl ilerlediği konusunda görüşlerini paylaştı. Level tasarımı ekip tarafından beğenildi. Ayrıca eklenmesi gereken yeni özellikler hakkında da değerlendirmeler yapıldı.
    
   • Sprint Review Katılımcıları: Hasan Hüseyin Çelik, Alp Doruk Şengün, 	Gülsüm Çakıroğlu, Azra Aygün, 	Furkan Necat Alkan.
 
-- **Sprint Retrospective:**
+## **Sprint Retrospective:**
 
   •Birinci sprintte elde edilen ilerleme ekip tarafından beğenildi ve ikinci sprintte projenin büyük çoğunluğunun tamamlanması hedeflendi. Tasarım için toplanan assetlerin bir dosyada saklanmasına, bunların birleştirilmesine ve developerlarımız tarafından uygun mekaniklerin entegre edilmesine karar verildi. Ayrıca her üyenin, günün başında o gün yapacağı çalışmaları gruba bildirmesi kararlaştırıldı.  
 
