@@ -35,9 +35,13 @@ public class ChController : MonoBehaviour
     private bool isRunning;
     private bool hasJumped;
 
+    private WallClimb climbScript;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        climbScript = GetComponent<WallClimb>();
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -51,6 +55,9 @@ public class ChController : MonoBehaviour
 
     void HandleMouseLook()
     {
+        if (climbScript != null && climbScript.enabled && climbScript.IsClimbing())
+            return;
+
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
@@ -63,6 +70,9 @@ public class ChController : MonoBehaviour
 
     void HandleMovement()
     {
+        if (climbScript != null && climbScript.enabled && climbScript.IsClimbing())
+            return;
+
         isGrounded = controller.isGrounded;
 
         float moveX = Input.GetAxis("Horizontal");
@@ -79,12 +89,11 @@ public class ChController : MonoBehaviour
 
         controller.Move(move * currentSpeed * Time.deltaTime);
 
-        // Jump
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !hasJumped)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             hasJumped = true;
-            animator.SetTrigger("Jump"); 
+            animator.SetTrigger("Jump");
         }
 
         if (isGrounded && velocity.y < 0)
@@ -93,7 +102,6 @@ public class ChController : MonoBehaviour
             hasJumped = false;
         }
 
-        // Dash
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             float timeSinceLastShift = Time.time - lastShiftTime;
@@ -125,7 +133,13 @@ public class ChController : MonoBehaviour
         animator.SetBool("isRunning", isRunning);
         animator.SetBool("isGrounded", isGrounded);
 
-        float targetHeight = isRunning ? crouchHeight : standHeight;
+        float targetHeight = standHeight;
+
+        if (isRunning)
+            targetHeight = crouchHeight;
+
+        if (climbScript != null && climbScript.enabled && climbScript.IsClimbing())
+            return; 
 
         Vector3 camPos = cameraHolder.localPosition;
         camPos.y = Mathf.Lerp(camPos.y, targetHeight, Time.deltaTime * cameraLerpSpeed);

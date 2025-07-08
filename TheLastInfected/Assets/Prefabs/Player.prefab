@@ -147,8 +147,9 @@ GameObject:
   m_Component:
   - component: {fileID: 585820766148622371}
   - component: {fileID: 5348828090469996797}
-  - component: {fileID: 1998522277474028248}
   - component: {fileID: 2628698814696876134}
+  - component: {fileID: 6249633432256217556}
+  - component: {fileID: 7689000919924271217}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -195,32 +196,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.36, z: 0.39}
---- !u!114 &1998522277474028248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3602575055023870495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38fa31bf129be4448ee0511e1879262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraHolder: {fileID: 8092215265174946744}
-  standHeight: 1.47
-  crouchHeight: 1.2
-  cameraLerpSpeed: 5
-  animator: {fileID: 8549966433010053856}
-  walkSpeed: 3
-  runSpeed: 6
-  jumpHeight: 2
-  gravity: -9.81
-  dashForce: 10
-  dashCooldown: 1
-  mouseSensitivity: 100
-  playerBody: {fileID: 8549966433017470326}
-  playerCamera: {fileID: 2015346720519459946}
 --- !u!143 &2628698814696876134
 CharacterController:
   m_ObjectHideFlags: 0
@@ -247,6 +222,60 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.36, z: 0.39}
+--- !u!114 &6249633432256217556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602575055023870495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38fa31bf129be4448ee0511e1879262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraHolder: {fileID: 8092215265174946744}
+  standHeight: 1.65
+  crouchHeight: 1.2
+  cameraLerpSpeed: 5
+  animator: {fileID: 8549966433010053856}
+  walkSpeed: 3
+  runSpeed: 6
+  jumpHeight: 2
+  gravity: -9.81
+  dashForce: 10
+  dashCooldown: 1
+  mouseSensitivity: 100
+  playerBody: {fileID: 8549966433017470326}
+  playerCamera: {fileID: 2015346720519459946}
+--- !u!114 &7689000919924271217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3602575055023870495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4defd42bc556a408ac82a71ef5eb47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  climbSpeed: 0.7
+  climbDuration: 2.5
+  wallCheckDistance: 1
+  wallCheckRadius: 0.4
+  climbableAngle: 60
+  climbKey: 99
+  playerCamera: {fileID: 2015346720519459946}
+  cameraHolder: {fileID: 8092215265174946744}
+  animator: {fileID: 8549966433010053856}
+  cameraLerpSpeed: 5
+  climbCamHeight: 1.4
+  climbCamZOffset: 0
+  mantleCheckHeight: 2
+  mantleOffset: 1.2
+  mantleDuration: 0.4
+  climbCameraXRotation: 3
 --- !u!1 &6157117074736742063
 GameObject:
   m_ObjectHideFlags: 0
