@@ -4,8 +4,8 @@ using UnityEngine;
 public class ChController : MonoBehaviour
 {
     [SerializeField] private Transform cameraHolder;
-    [SerializeField] private float standHeight = 1.65f;
-    [SerializeField] private float crouchHeight = 1.2f;
+    [SerializeField] private float standHeight = 1.3f;
+    [SerializeField] private float crouchHeight = 0.7f;
     [SerializeField] private float cameraLerpSpeed = 5f;
 
     [SerializeField] private Animator animator;

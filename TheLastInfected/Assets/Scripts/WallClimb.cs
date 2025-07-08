@@ -10,6 +10,7 @@ public class WallClimb : MonoBehaviour
     public float wallCheckRadius = 0.4f;
     public float climbableAngle = 60f;
     public KeyCode climbKey = KeyCode.C;
+    public LayerMask climbableLayers;
 
     [Header("References")]
     public Transform playerCamera;
@@ -24,6 +25,8 @@ public class WallClimb : MonoBehaviour
     [Header("Mantle Settings")]
     public float mantleCheckHeight = 2f;
     public float mantleOffset = 1.2f;
+    public float mantleForwardOffset = 1f;
+
     public float mantleDuration = 0.4f;
 
     [Header("Camera Rotation Lock")]
@@ -132,7 +135,7 @@ public class WallClimb : MonoBehaviour
         Vector3 dir = playerCamera.forward;
 
         RaycastHit hit;
-        if (Physics.SphereCast(origin, wallCheckRadius, dir, out hit, wallCheckDistance))
+        if (Physics.SphereCast(origin, wallCheckRadius, dir, out hit, wallCheckDistance, climbableLayers))
         {
             float wallAngle = Vector3.Angle(hit.normal, Vector3.up);
             if (wallAngle > climbableAngle)
@@ -151,7 +154,7 @@ public class WallClimb : MonoBehaviour
         Vector3 origin = transform.position + Vector3.up * mantleCheckHeight;
         Vector3 dir = playerCamera.forward;
 
-        return !Physics.Raycast(origin, dir, wallCheckDistance);
+        return !Physics.Raycast(origin, dir, wallCheckDistance, climbableLayers);
     }
 
     void StartMantle()
@@ -163,7 +166,9 @@ public class WallClimb : MonoBehaviour
             animator.SetBool("isClimbing", false);
 
         mantleStartPos = transform.position;
-        mantleTargetPos = transform.position + Vector3.up * mantleOffset;
+        Vector3 upwardOffset = Vector3.up * mantleOffset;
+        Vector3 forwardOffset = playerCamera.forward * mantleForwardOffset;
+        mantleTargetPos = transform.position + upwardOffset + forwardOffset;
 
         mantleTimer = 0f;
         isMantling = true;
