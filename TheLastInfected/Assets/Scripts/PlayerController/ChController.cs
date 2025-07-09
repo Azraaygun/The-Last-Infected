@@ -15,8 +15,6 @@ public class ChController : MonoBehaviour
     public float runSpeed = 6f;
     public float jumpHeight = 2f;
     public float gravity = -9.81f;
-    public float dashForce = 10f;
-    public float dashCooldown = 1f;
 
     [Header("Mouse")]
     public float mouseSensitivity = 100f;
@@ -27,10 +25,6 @@ public class ChController : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
     private float xRotation = 0f;
-
-    private float lastDashTime = -999f;
-    private float lastShiftTime = 0f;
-    private float doubleTapThreshold = 0.3f;
 
     private bool isRunning;
     private bool hasJumped;
@@ -78,8 +72,6 @@ public class ChController : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
-        float inputMagnitude = new Vector2(moveX, moveZ).magnitude;
-
         isRunning = Input.GetKey(KeyCode.LeftShift) && isGrounded;
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
 
@@ -102,25 +94,8 @@ public class ChController : MonoBehaviour
             hasJumped = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            float timeSinceLastShift = Time.time - lastShiftTime;
-            if (timeSinceLastShift <= doubleTapThreshold && Time.time - lastDashTime >= dashCooldown && isGrounded)
-            {
-                Dash();
-                lastDashTime = Time.time;
-            }
-            lastShiftTime = Time.time;
-        }
-
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-    }
-
-    void Dash()
-    {
-        Vector3 dashDirection = Vector3.ProjectOnPlane(playerBody.forward, Vector3.up).normalized;
-        controller.Move(dashDirection * dashForce);
     }
 
     void UpdateAnimations()
@@ -139,7 +114,7 @@ public class ChController : MonoBehaviour
             targetHeight = crouchHeight;
 
         if (climbScript != null && climbScript.enabled && climbScript.IsClimbing())
-            return; 
+            return;
 
         Vector3 camPos = cameraHolder.localPosition;
         camPos.y = Mathf.Lerp(camPos.y, targetHeight, Time.deltaTime * cameraLerpSpeed);
