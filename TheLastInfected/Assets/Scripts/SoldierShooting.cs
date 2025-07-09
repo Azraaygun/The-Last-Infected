@@ -16,6 +16,12 @@ public class SoldierShooting : MonoBehaviour
 
     private float fireTimer;
     private bool isShooting = false;
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
 
     void Update()
     {
@@ -26,17 +32,33 @@ public class SoldierShooting : MonoBehaviour
         {
             fireTimer = 0f;
             ShootRay();
+            if (animator != null)
+            {
+                animator.SetTrigger("ShootTrigger");
+            }
         }
     }
 
     public void StartShooting()
     {
+        if (isShooting) return;
         isShooting = true;
+
+        if (animator != null)
+        {
+            animator.SetBool("IsAiming", true);
+        }
     }
 
     public void StopShooting()
     {
+        if (!isShooting) return;
         isShooting = false;
+
+        if (animator != null)
+        {
+            animator.SetBool("IsAiming", false);
+        }
     }
 
     void ShootRay()
@@ -58,7 +80,6 @@ public class SoldierShooting : MonoBehaviour
         if (Physics.Raycast(ray, out hit, fireRange, playerLayer))
         {
             Debug.Log("Hasar " + hit.collider.name);
-
             StartCoroutine(ShowBulletLine(firePoint.position, hit.point));
         }
         else

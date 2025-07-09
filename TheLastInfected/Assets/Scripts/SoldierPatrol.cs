@@ -11,11 +11,13 @@ public class SoldierPatrol : MonoBehaviour
     private Vector3 targetPoint;
     private NavMeshAgent agent;
     private SoldierShooting shootingScript;
+    private Animator animator;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         shootingScript = GetComponent<SoldierShooting>();
+        animator = GetComponentInChildren<Animator>();
         targetPoint = pointA.position;
     }
 
@@ -47,12 +49,17 @@ public class SoldierPatrol : MonoBehaviour
 
             agent.SetDestination(targetPoint);
         }
+
+        if (animator != null)
+        {
+            animator.SetFloat("Speed", agent.velocity.magnitude);
+        }
     }
 
     void FacePlayer()
     {
         Vector3 direction = (player.position - transform.position).normalized;
-        direction.y = 0f; 
+        direction.y = 0f;
         transform.rotation = Quaternion.LookRotation(direction);
     }
 }

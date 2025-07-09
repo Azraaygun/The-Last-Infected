@@ -66,7 +66,7 @@ public class WallClimb : MonoBehaviour
         if (CanClimbNow())
         {
             if (!UIHintManager.Instance.IsHintVisible())
-                UIHintManager.Instance.ShowHint("[C] For Wall Climbing");
+                UIHintManager.Instance.ShowHint("Hold [C] For Wall Climbing");
         }
         else
         {
